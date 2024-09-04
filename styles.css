@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    color: black;
+    background: white;
+    font-family: "rubik", sans-serif
+}
+
+header {
+    background: #febe20;
+    padding: 50px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: block;
+    justify-content: center;
+}
+
+div {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+iframe {
+    border-radius: 30px;
+}
+
+img {
+    height: 200px;
+}
+.tutoriais {
+    padding: 50px;
+    text-align: center;
+    display: block;
+    background-color: #febe20;
+}
+.videos {
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    display: flex;
+    overflow-x: auto;
+    column-gap: 10px;
+    align-items: center;
+    padding: 50px;
+    min-height: 300px;
+}
+.videos img {
+    border-radius: 30px;
+}
+.videos img:hover {
+    scale: 110%;
+    border: 5px solid #434343
+}
